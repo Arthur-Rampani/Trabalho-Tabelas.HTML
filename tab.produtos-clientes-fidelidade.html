@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tab-produtos-clientes-fidelidade.css">
+    <title>Tabelas com CSS</title>
+</head>
+
+<body>
+    <h1>Tabelas com CSS</h1>
+
+    <!-- Tabela 01: Lista de Produtos -->
+    <h2>01: Lista de Produtos</h2>
+    <table class="tabela-01">
+        <caption>Lista de Produtos</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Preço (R$)</th>
+                <th>Categoria</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Camisa Flanela</td>
+                <td>59,90</td>
+                <td>Vestuário</td>
+            </tr>
+            <tr class = "linha-grande">
+                <td>Teclado Gamer</td>
+                <td>129,90</td>
+                <td>Eletrônicos</td>
+            </tr>
+            <tr>
+                <td>Fone de Ouvido</td>
+                <td>79,90</td>
+                <td>Acessórios</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Tabela 02: Tabela de Clientes -->
+    <h2>02: Tabela de Clientes</h2>
+    <section>
+        <table class="tabela-02">
+            <caption>Cadastro de Clientes</caption>
+            <thead>
+                <tr>
+                    <th colspan="4">Clientes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Código</td>
+                    <td rowspan="2">Nome</td>
+                    <td colspan="2">Documentos</td>
+                </tr>
+                <tr>
+                    <td>RG</td>
+                    <td>CPF</td>
+                </tr>
+                <tr>
+                    <td>001</td>
+                    <td>João da Silva</td>
+                    <td>10.532.587-9</td>
+                    <td>611.208.370-14</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>João de Souza</td>
+                    <td>48.433.357-4</td>
+                    <td>206.562.050-16</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Tabela 01: Tabela de Fidelidade -->
+    <h2>03: Tabela de Fidelidade</h2>
+    <section>
+        <table class="tabela-03">
+            <caption>Clientes</caption>
+            <thead>
+                <tr>
+                    <th colspan="5">Sorvetes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Código</td>
+                    <td rowspan="2">Sabor</td>
+                    <td rowspan="2">Cliente</td>
+                    <td colspan="2">Tipo</td>
+                </tr>
+                <tr>
+                    <td>Picolé</td>
+                    <td>Massa</td>
+                </tr>
+                <tr>
+                    <td>001</td>
+                    <td>Chocolate</td>
+                    <td>Maria</td>
+                    <td>SIM</td>
+                    <td>NÃO</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
